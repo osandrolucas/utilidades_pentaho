@@ -1,0 +1,518 @@
+2019/04/15 15:35:34 - Set Variables - Loading transformation from XML file [file:///C:/Users/sandro_ferreira/OneDrive - RBS PARTICIPAÇÕES S A/GitNew/utilidades_pentaho/ETL_Set_Variables_Email.ktr]
+2019/04/15 15:35:34 - Set Variables - Using run configuration [Pentaho local]
+2019/04/15 15:35:34 - Set Variables - Using legacy execution engine
+2019/04/15 15:35:34 - Set Variables - Expedindo in?cio para transforma??o [Set Variables]
+2019/04/15 15:35:35 - Write to log.0 - 
+2019/04/15 15:35:35 - Write to log.0 - ------------> Linenr 1------------------------------
+2019/04/15 15:35:35 - Write to log.0 - AMBIENTE DE EXECUCAO:
+2019/04/15 15:35:35 - Write to log.0 - 
+2019/04/15 15:35:35 - Write to log.0 - environment = dev
+2019/04/15 15:35:35 - Write to log.0 - LOCAL = RBSN2795
+2019/04/15 15:35:35 - Write to log.0 - IP_HOST = 10.40.146.30
+2019/04/15 15:35:35 - Write to log.0 - 
+2019/04/15 15:35:35 - Write to log.0 - ====================
+2019/04/15 15:35:35 - Get System Info.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:35:35 - DADOS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:35:35 - Set Variables.0 - Setting environment variables...
+2019/04/15 15:35:35 - Set Variables.0 - Set variable Log_ETL to value [[DEV] - Sucesso no ETL Circulação]
+2019/04/15 15:35:35 - Set Variables.0 - Set variable Log_ETL_Erro to value [[DEV] - Erro no ETL Circulação]
+2019/04/15 15:35:35 - VERIFICA_AMBIENTE.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:35:35 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:35:35 - Set Variables.0 - Set variable destino_email to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:35:35 - Switch_Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:35:35 - Set Variables.0 - Set variable destino_email_cc to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:35:35 - Set Variables.0 - Set variable destino_email_cc_processo to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:35:35 - Set Variables.0 - Set variable sender_address to value [TecnologiaSistemasCPMBI@gruporbs.onmicrosoft.com]
+2019/04/15 15:35:35 - Set Variables.0 - Set variable sender_name to value [CPM/BI]
+2019/04/15 15:35:35 - Set Variables.0 - Set variable server to value [mail.rbs.com.br]
+2019/04/15 15:35:35 - Set Variables.0 - Set variable server_port to value [25]
+2019/04/15 15:35:35 - Set Variables.0 - Set variable cube_carteira_rs to value [${Internal.Entry.Current.Directory}\CUBE\carteira_rs.cube]
+2019/04/15 15:35:35 - Set Variables.0 - Set variable cube_carteira_sc to value [${Internal.Entry.Current.Directory}\CUBE\carteira_sc.cube]
+2019/04/15 15:35:35 - Set Variables.0 - Set variable hora_inicio to value [15/04/2019 15:35:35]
+2019/04/15 15:35:35 - Set Variables.0 - Set variable cube_receita_rs to value [${Internal.Entry.Current.Directory}\CUBE\receita_rs.cube]
+2019/04/15 15:35:35 - Local.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:35:35 - Set Variables.0 - Set variable cube_receita_sc to value [${Internal.Entry.Current.Directory}\CUBE\receita_sc.cube]
+2019/04/15 15:35:35 - Set Variables.0 - Set variable cube_beneficios_rs to value [${Internal.Entry.Current.Directory}\CUBE\beneficios_rs.cube]
+2019/04/15 15:35:35 - Set Variables.0 - Set variable cube_beneficios_sc to value [${Internal.Entry.Current.Directory}\CUBE\beneficios_sc.cube]
+2019/04/15 15:35:35 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:35:35 - Set Variables.0 - Finished after 1 rows.
+2019/04/15 15:35:35 - Set Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:36:10 - Set Variables - Loading transformation from XML file [file:///C:/Users/sandro_ferreira/OneDrive - RBS PARTICIPAÇÕES S A/GitNew/utilidades_pentaho/ETL_Set_Variables_Email.ktr]
+2019/04/15 15:36:10 - Set Variables - Using run configuration [Pentaho local]
+2019/04/15 15:36:10 - Set Variables - Using legacy execution engine
+2019/04/15 15:36:10 - Set Variables - Expedindo in?cio para transforma??o [Set Variables]
+2019/04/15 15:36:10 - Write to log.0 - 
+2019/04/15 15:36:10 - Write to log.0 - ------------> Linenr 1------------------------------
+2019/04/15 15:36:10 - Write to log.0 - AMBIENTE DE EXECUCAO:
+2019/04/15 15:36:10 - Write to log.0 - 
+2019/04/15 15:36:10 - Write to log.0 - environment = dev
+2019/04/15 15:36:10 - Write to log.0 - LOCAL = RBSN2795
+2019/04/15 15:36:10 - Write to log.0 - IP_HOST = 10.40.146.30
+2019/04/15 15:36:10 - Write to log.0 - 
+2019/04/15 15:36:10 - Write to log.0 - ====================
+2019/04/15 15:36:10 - Get System Info.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:36:10 - Set Variables.0 - Setting environment variables...
+2019/04/15 15:36:10 - DADOS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:36:10 - Set Variables.0 - Set variable Log_ETL to value [[DEV] - Sucesso no ETL Circulação]
+2019/04/15 15:36:10 - Set Variables.0 - Set variable Log_ETL_Erro to value [[DEV] - Erro no ETL Circulação]
+2019/04/15 15:36:10 - Set Variables.0 - Set variable destino_email to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:36:10 - VERIFICA_AMBIENTE.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:36:10 - Set Variables.0 - Set variable destino_email_cc to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:36:10 - Set Variables.0 - Set variable destino_email_cc_processo to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:36:10 - Set Variables.0 - Set variable sender_address to value [TecnologiaSistemasCPMBI@gruporbs.onmicrosoft.com]
+2019/04/15 15:36:10 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:36:10 - Set Variables.0 - Set variable sender_name to value [CPM/BI]
+2019/04/15 15:36:10 - Set Variables.0 - Set variable server to value [mail.rbs.com.br]
+2019/04/15 15:36:10 - Switch_Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:36:10 - Set Variables.0 - Set variable server_port to value [25]
+2019/04/15 15:36:10 - Set Variables.0 - Set variable cube_carteira_rs to value [${Internal.Entry.Current.Directory}\CUBE\carteira_rs.cube]
+2019/04/15 15:36:10 - Local.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:36:10 - Set Variables.0 - Set variable cube_carteira_sc to value [${Internal.Entry.Current.Directory}\CUBE\carteira_sc.cube]
+2019/04/15 15:36:10 - Set Variables.0 - Set variable hora_inicio to value [15/04/2019 15:36:10]
+2019/04/15 15:36:10 - Set Variables.0 - Set variable cube_receita_rs to value [${Internal.Entry.Current.Directory}\CUBE\receita_rs.cube]
+2019/04/15 15:36:10 - Set Variables.0 - Set variable cube_receita_sc to value [${Internal.Entry.Current.Directory}\CUBE\receita_sc.cube]
+2019/04/15 15:36:10 - Set Variables.0 - Set variable cube_beneficios_rs to value [${Internal.Entry.Current.Directory}\CUBE\beneficios_rs.cube]
+2019/04/15 15:36:10 - Set Variables.0 - Set variable cube_beneficios_sc to value [${Internal.Entry.Current.Directory}\CUBE\beneficios_sc.cube]
+2019/04/15 15:36:10 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:36:10 - Set Variables.0 - Finished after 1 rows.
+2019/04/15 15:36:10 - Set Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:36:54 - Set Variables - Loading transformation from XML file [file:///C:/Users/sandro_ferreira/OneDrive - RBS PARTICIPAÇÕES S A/GitNew/utilidades_pentaho/ETL_Set_Variables_Email.ktr]
+2019/04/15 15:36:54 - Set Variables - Using run configuration [Pentaho local]
+2019/04/15 15:36:54 - Set Variables - Using legacy execution engine
+2019/04/15 15:36:54 - Set Variables - Expedindo in?cio para transforma??o [Set Variables]
+2019/04/15 15:36:54 - Write to log.0 - 
+2019/04/15 15:36:54 - Write to log.0 - ------------> Linenr 1------------------------------
+2019/04/15 15:36:54 - Write to log.0 - AMBIENTE DE EXECUCAO:
+2019/04/15 15:36:54 - Write to log.0 - 
+2019/04/15 15:36:54 - Write to log.0 - environment = dev
+2019/04/15 15:36:54 - Write to log.0 - LOCAL = RBSN2795
+2019/04/15 15:36:54 - Write to log.0 - IP_HOST = 10.40.146.30
+2019/04/15 15:36:54 - Write to log.0 - 
+2019/04/15 15:36:54 - Write to log.0 - ====================
+2019/04/15 15:36:54 - Get System Info.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:36:54 - Set Variables.0 - Setting environment variables...
+2019/04/15 15:36:54 - Set Variables.0 - Set variable Log_ETL to value [[DEV] - Sucesso no ETL Circulação]
+2019/04/15 15:36:54 - DADOS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:36:54 - Set Variables.0 - Set variable Log_ETL_Erro to value [[DEV] - Erro no ETL Circulação]
+2019/04/15 15:36:54 - Set Variables.0 - Set variable destino_email to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:36:54 - Set Variables.0 - Set variable destino_email_cc to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:36:54 - VERIFICA_AMBIENTE.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:36:54 - Set Variables.0 - Set variable destino_email_cc_processo to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:36:54 - Set Variables.0 - Set variable sender_address to value [TecnologiaSistemasCPMBI@gruporbs.onmicrosoft.com]
+2019/04/15 15:36:54 - Set Variables.0 - Set variable sender_name to value [CPM/BI]
+2019/04/15 15:36:54 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:36:54 - Set Variables.0 - Set variable server to value [mail.rbs.com.br]
+2019/04/15 15:36:54 - Set Variables.0 - Set variable server_port to value [25]
+2019/04/15 15:36:54 - Switch_Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:36:54 - Set Variables.0 - Set variable cube_carteira_rs to value [${Internal.Entry.Current.Directory}\CUBE\carteira_rs.cube]
+2019/04/15 15:36:54 - Set Variables.0 - Set variable cube_carteira_sc to value [${Internal.Entry.Current.Directory}\CUBE\carteira_sc.cube]
+2019/04/15 15:36:54 - Set Variables.0 - Set variable hora_inicio to value [15/04/2019 15:36:54]
+2019/04/15 15:36:54 - Local.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:36:54 - Set Variables.0 - Set variable cube_receita_rs to value [${Internal.Entry.Current.Directory}\CUBE\receita_rs.cube]
+2019/04/15 15:36:54 - Set Variables.0 - Set variable cube_receita_sc to value [${Internal.Entry.Current.Directory}\CUBE\receita_sc.cube]
+2019/04/15 15:36:54 - Set Variables.0 - Set variable cube_beneficios_rs to value [${Internal.Entry.Current.Directory}\CUBE\beneficios_rs.cube]
+2019/04/15 15:36:54 - Set Variables.0 - Set variable cube_beneficios_sc to value [${Internal.Entry.Current.Directory}\CUBE\beneficios_sc.cube]
+2019/04/15 15:36:54 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:36:54 - Set Variables.0 - Finished after 1 rows.
+2019/04/15 15:36:54 - Set Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:42:58 - Set Variables - Loading transformation from XML file [file:///C:/Users/sandro_ferreira/OneDrive - RBS PARTICIPAÇÕES S A/GitNew/utilidades_pentaho/ETL_Set_Variables_Email.ktr]
+2019/04/15 15:42:58 - Set Variables - Using run configuration [Pentaho local]
+2019/04/15 15:42:58 - Set Variables - Using legacy execution engine
+2019/04/15 15:42:58 - Set Variables - Expedindo in?cio para transforma??o [Set Variables]
+2019/04/15 15:42:58 - Write to log.0 - 
+2019/04/15 15:42:58 - Write to log.0 - ------------> Linenr 1------------------------------
+2019/04/15 15:42:58 - Write to log.0 - AMBIENTE DE EXECUCAO:
+2019/04/15 15:42:58 - Write to log.0 - 
+2019/04/15 15:42:58 - Write to log.0 - environment = dev
+2019/04/15 15:42:58 - Write to log.0 - LOCAL = RBSN2795
+2019/04/15 15:42:58 - Write to log.0 - IP_HOST = 10.40.146.30
+2019/04/15 15:42:58 - Write to log.0 - 
+2019/04/15 15:42:58 - Write to log.0 - ====================
+2019/04/15 15:42:58 - Get System Info.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:42:58 - DADOS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:42:58 - Select values.0 - ERROR (version 8.1.0.0-365, build 8.1.0.0-365 from 2018-04-30 09.42.24 by buildguy) : Field 'hora_inicio' is specified twice with the same name!
+2019/04/15 15:42:58 - Select values.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2019/04/15 15:42:58 - Set Variables - Transforma??o detectada 
+2019/04/15 15:42:58 - Set Variables - Transforma??o est? matando os outros steps!
+2019/04/15 15:42:58 - Set Variables - ERROR (version 8.1.0.0-365, build 8.1.0.0-365 from 2018-04-30 09.42.24 by buildguy) : Erros detectados!
+2019/04/15 15:42:58 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:42:58 - Local.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:42:58 - VERIFICA_AMBIENTE.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:42:58 - Switch_Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:42:58 - Set Variables.0 - We didn't receive a row while setting the default values.
+2019/04/15 15:42:58 - Set Variables.0 - Finished after 0 rows.
+2019/04/15 15:42:58 - Set Variables - ERROR (version 8.1.0.0-365, build 8.1.0.0-365 from 2018-04-30 09.42.24 by buildguy) : Erros detectados!
+2019/04/15 15:45:01 - Set Variables - Loading transformation from XML file [file:///C:/Users/sandro_ferreira/OneDrive - RBS PARTICIPAÇÕES S A/GitNew/utilidades_pentaho/ETL_Set_Variables_Email.ktr]
+2019/04/15 15:45:01 - Set Variables - Using run configuration [Pentaho local]
+2019/04/15 15:45:01 - Set Variables - Using legacy execution engine
+2019/04/15 15:45:01 - Set Variables - Expedindo in?cio para transforma??o [Set Variables]
+2019/04/15 15:45:01 - Write to log.0 - 
+2019/04/15 15:45:01 - Write to log.0 - ------------> Linenr 1------------------------------
+2019/04/15 15:45:01 - Write to log.0 - AMBIENTE DE EXECUCAO:
+2019/04/15 15:45:01 - Write to log.0 - 
+2019/04/15 15:45:01 - Write to log.0 - environment = dev
+2019/04/15 15:45:01 - Write to log.0 - LOCAL = RBSN2795
+2019/04/15 15:45:01 - Write to log.0 - IP_HOST = 10.40.146.30
+2019/04/15 15:45:01 - Write to log.0 - 
+2019/04/15 15:45:01 - Write to log.0 - ====================
+2019/04/15 15:45:01 - Get System Info.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:45:01 - Set Variables.0 - Setting environment variables...
+2019/04/15 15:45:01 - Set Variables.0 - Set variable Log_ETL to value [[DEV] - Sucesso no ETL Circulação]
+2019/04/15 15:45:01 - DADOS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:45:01 - Set Variables.0 - Set variable Log_ETL_Erro to value [[DEV] - Erro no ETL Circulação]
+2019/04/15 15:45:01 - Set Variables.0 - Set variable destino_email to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:45:01 - VERIFICA_AMBIENTE.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:45:01 - Set Variables.0 - Set variable destino_email_cc to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:45:01 - Set Variables.0 - Set variable destino_email_cc_processo to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:45:01 - Set Variables.0 - Set variable sender_address to value [TecnologiaSistemasCPMBI@gruporbs.onmicrosoft.com]
+2019/04/15 15:45:01 - Set Variables.0 - Set variable sender_name to value [CPM/BI]
+2019/04/15 15:45:01 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:45:01 - Set Variables.0 - Set variable server to value [mail.rbs.com.br]
+2019/04/15 15:45:01 - Set Variables.0 - Set variable server_port to value [25]
+2019/04/15 15:45:01 - Set Variables.0 - Set variable hora_inicio to value [15/04/2019 15:45:01]
+2019/04/15 15:45:01 - Set Variables.0 - Set variable hoje to value [15/04/2019]
+2019/04/15 15:45:01 - Switch_Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:45:01 - Local.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:45:01 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:45:01 - Set Variables.0 - Finished after 1 rows.
+2019/04/15 15:45:01 - Set Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:45:12 - Set Variables - Loading transformation from XML file [file:///C:/Users/sandro_ferreira/OneDrive - RBS PARTICIPAÇÕES S A/GitNew/utilidades_pentaho/ETL_Set_Variables_Email.ktr]
+2019/04/15 15:45:12 - Set Variables - Using run configuration [Pentaho local]
+2019/04/15 15:45:12 - Set Variables - Using legacy execution engine
+2019/04/15 15:45:12 - Set Variables - Expedindo in?cio para transforma??o [Set Variables]
+2019/04/15 15:45:12 - Write to log.0 - 
+2019/04/15 15:45:12 - Write to log.0 - ------------> Linenr 1------------------------------
+2019/04/15 15:45:12 - Write to log.0 - AMBIENTE DE EXECUCAO:
+2019/04/15 15:45:12 - Write to log.0 - 
+2019/04/15 15:45:12 - Write to log.0 - environment = dev
+2019/04/15 15:45:12 - Write to log.0 - LOCAL = RBSN2795
+2019/04/15 15:45:12 - Write to log.0 - IP_HOST = 10.40.146.30
+2019/04/15 15:45:12 - Write to log.0 - 
+2019/04/15 15:45:12 - Write to log.0 - ====================
+2019/04/15 15:45:12 - Get System Info.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:45:12 - Set Variables.0 - Setting environment variables...
+2019/04/15 15:45:12 - Set Variables.0 - Set variable Log_ETL to value [[DEV] - Sucesso no ETL Circulação]
+2019/04/15 15:45:12 - DADOS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:45:12 - Set Variables.0 - Set variable Log_ETL_Erro to value [[DEV] - Erro no ETL Circulação]
+2019/04/15 15:45:12 - Set Variables.0 - Set variable destino_email to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:45:12 - Set Variables.0 - Set variable destino_email_cc to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:45:12 - Set Variables.0 - Set variable destino_email_cc_processo to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:45:12 - VERIFICA_AMBIENTE.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:45:12 - Set Variables.0 - Set variable sender_address to value [TecnologiaSistemasCPMBI@gruporbs.onmicrosoft.com]
+2019/04/15 15:45:12 - Set Variables.0 - Set variable sender_name to value [CPM/BI]
+2019/04/15 15:45:12 - Set Variables.0 - Set variable server to value [mail.rbs.com.br]
+2019/04/15 15:45:12 - Set Variables.0 - Set variable server_port to value [25]
+2019/04/15 15:45:12 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:45:12 - Set Variables.0 - Set variable hora_inicio to value [15/04/2019 15:45:12]
+2019/04/15 15:45:12 - Set Variables.0 - Set variable hoje to value [15/04/2019]
+2019/04/15 15:45:12 - Switch_Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:45:12 - Local.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:45:12 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:45:12 - Set Variables.0 - Finished after 1 rows.
+2019/04/15 15:45:12 - Set Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:46:18 - Set Variables - Loading transformation from XML file [file:///C:/Users/sandro_ferreira/OneDrive - RBS PARTICIPAÇÕES S A/GitNew/utilidades_pentaho/ETL_Set_Variables_Email.ktr]
+2019/04/15 15:46:18 - Set Variables - Using run configuration [Pentaho local]
+2019/04/15 15:46:18 - Set Variables - Using legacy execution engine
+2019/04/15 15:46:18 - Set Variables - Expedindo in?cio para transforma??o [Set Variables]
+2019/04/15 15:46:18 - Write to log.0 - 
+2019/04/15 15:46:18 - Write to log.0 - ------------> Linenr 1------------------------------
+2019/04/15 15:46:18 - Write to log.0 - AMBIENTE DE EXECUCAO:
+2019/04/15 15:46:18 - Write to log.0 - 
+2019/04/15 15:46:18 - Write to log.0 - environment = dev
+2019/04/15 15:46:18 - Write to log.0 - LOCAL = RBSN2795
+2019/04/15 15:46:18 - Write to log.0 - IP_HOST = 10.40.146.30
+2019/04/15 15:46:18 - Write to log.0 - 
+2019/04/15 15:46:18 - Write to log.0 - ====================
+2019/04/15 15:46:18 - Get System Info.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:46:18 - DADOS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:46:18 - Set Variables.0 - Setting environment variables...
+2019/04/15 15:46:18 - Set Variables.0 - Set variable Log_ETL to value [[DEV] - Sucesso no ETL Circulação]
+2019/04/15 15:46:18 - Set Variables.0 - Set variable Log_ETL_Erro to value [[DEV] - Erro no ETL Circulação]
+2019/04/15 15:46:18 - Set Variables.0 - Set variable destino_email to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 15:46:18 - VERIFICA_AMBIENTE.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:46:18 - Set Variables.0 - Set variable destino_email_cc to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 15:46:18 - Set Variables.0 - Set variable destino_email_cc_processo to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 15:46:18 - Set Variables.0 - Set variable sender_address to value [TecnologiaSistemasCPMBI@gruporbs.onmicrosoft.com]
+2019/04/15 15:46:18 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:46:18 - Set Variables.0 - Set variable sender_name to value [CPM/BI]
+2019/04/15 15:46:18 - Set Variables.0 - Set variable server to value [mail.rbs.com.br]
+2019/04/15 15:46:18 - Set Variables.0 - Set variable server_port to value [25]
+2019/04/15 15:46:18 - Switch_Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:46:18 - Set Variables.0 - Set variable hora_inicio to value [15/04/2019 15:46:18]
+2019/04/15 15:46:18 - Local.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:46:18 - Set Variables.0 - Set variable hoje to value [15/04/2019]
+2019/04/15 15:46:18 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:46:18 - Set Variables.0 - Finished after 1 rows.
+2019/04/15 15:46:18 - Set Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:46:23 - Set Variables - Loading transformation from XML file [file:///C:/Users/sandro_ferreira/OneDrive - RBS PARTICIPAÇÕES S A/GitNew/utilidades_pentaho/ETL_Set_Variables_Email.ktr]
+2019/04/15 15:46:23 - Set Variables - Using run configuration [Pentaho local]
+2019/04/15 15:46:23 - Set Variables - Using legacy execution engine
+2019/04/15 15:46:23 - Set Variables - Expedindo in?cio para transforma??o [Set Variables]
+2019/04/15 15:46:23 - Write to log.0 - 
+2019/04/15 15:46:23 - Write to log.0 - ------------> Linenr 1------------------------------
+2019/04/15 15:46:23 - Write to log.0 - AMBIENTE DE EXECUCAO:
+2019/04/15 15:46:23 - Write to log.0 - 
+2019/04/15 15:46:23 - Write to log.0 - environment = dev
+2019/04/15 15:46:23 - Write to log.0 - LOCAL = RBSN2795
+2019/04/15 15:46:23 - Write to log.0 - IP_HOST = 10.40.146.30
+2019/04/15 15:46:23 - Write to log.0 - 
+2019/04/15 15:46:23 - Write to log.0 - ====================
+2019/04/15 15:46:23 - Get System Info.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:46:23 - Set Variables.0 - Setting environment variables...
+2019/04/15 15:46:23 - DADOS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:46:23 - Set Variables.0 - Set variable Log_ETL to value [[DEV] - Sucesso no ETL Circulação]
+2019/04/15 15:46:23 - Set Variables.0 - Set variable Log_ETL_Erro to value [[DEV] - Erro no ETL Circulação]
+2019/04/15 15:46:23 - Set Variables.0 - Set variable destino_email to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 15:46:23 - VERIFICA_AMBIENTE.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:46:23 - Set Variables.0 - Set variable destino_email_cc to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 15:46:23 - Set Variables.0 - Set variable destino_email_cc_processo to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 15:46:23 - Set Variables.0 - Set variable sender_address to value [TecnologiaSistemasCPMBI@gruporbs.onmicrosoft.com]
+2019/04/15 15:46:23 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:46:23 - Set Variables.0 - Set variable sender_name to value [CPM/BI]
+2019/04/15 15:46:23 - Set Variables.0 - Set variable server to value [mail.rbs.com.br]
+2019/04/15 15:46:23 - Set Variables.0 - Set variable server_port to value [25]
+2019/04/15 15:46:23 - Set Variables.0 - Set variable hora_inicio to value [15/04/2019 15:46:23]
+2019/04/15 15:46:23 - Switch_Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:46:23 - Set Variables.0 - Set variable hoje to value [15/04/2019]
+2019/04/15 15:46:23 - Local.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:46:23 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:46:23 - Set Variables.0 - Finished after 1 rows.
+2019/04/15 15:46:23 - Set Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:50:44 - Set Variables - Loading transformation from XML file [file:///C:/Users/sandro_ferreira/OneDrive - RBS PARTICIPAÇÕES S A/GitNew/utilidades_pentaho/ETL_Set_Variables_Email.ktr]
+2019/04/15 15:50:44 - Set Variables - Using run configuration [Pentaho local]
+2019/04/15 15:50:44 - Set Variables - Using legacy execution engine
+2019/04/15 15:50:44 - Set Variables - Expedindo in?cio para transforma??o [Set Variables]
+2019/04/15 15:50:44 - Write to log.0 - 
+2019/04/15 15:50:44 - Write to log.0 - ------------> Linenr 1------------------------------
+2019/04/15 15:50:44 - Write to log.0 - AMBIENTE DE EXECUCAO:
+2019/04/15 15:50:44 - Write to log.0 - 
+2019/04/15 15:50:44 - Write to log.0 - environment = dev
+2019/04/15 15:50:44 - Write to log.0 - LOCAL = RBSN2795
+2019/04/15 15:50:44 - Write to log.0 - IP_HOST = 10.40.146.30
+2019/04/15 15:50:44 - Write to log.0 - 
+2019/04/15 15:50:44 - Write to log.0 - ====================
+2019/04/15 15:50:44 - Get System Info.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:50:44 - DADOS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:50:44 - Set Variables.0 - Setting environment variables...
+2019/04/15 15:50:44 - Set Variables.0 - Set variable Log_ETL to value [[DEV] - Sucesso no ETL Circulação]
+2019/04/15 15:50:44 - VERIFICA_AMBIENTE.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:50:44 - Set Variables.0 - Set variable Log_ETL_Erro to value [[DEV] - Erro no ETL Circulação]
+2019/04/15 15:50:44 - Set Variables.0 - Set variable destino_email to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 15:50:44 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:50:44 - Set Variables.0 - Set variable destino_email_cc to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 15:50:44 - Set Variables.0 - Set variable destino_email_cc_processo to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 15:50:44 - Set Variables.0 - Set variable sender_address to value [TecnologiaSistemasCPMBI@gruporbs.onmicrosoft.com]
+2019/04/15 15:50:44 - Set Variables.0 - Set variable sender_name to value [CPM/BI]
+2019/04/15 15:50:44 - Set Variables.0 - Set variable server to value [mail.rbs.com.br]
+2019/04/15 15:50:44 - Switch_Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:50:44 - Set Variables.0 - Set variable server_port to value [25]
+2019/04/15 15:50:44 - Set Variables.0 - Set variable hora_inicio to value [15/04/2019 15:50:44]
+2019/04/15 15:50:44 - Set Variables.0 - Set variable hoje to value [15/04/2019]
+2019/04/15 15:50:44 - Local.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:50:44 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:50:44 - Set Variables.0 - Finished after 1 rows.
+2019/04/15 15:50:44 - Set Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:52:15 - Set Variables - Loading transformation from XML file [file:///C:/Users/sandro_ferreira/OneDrive - RBS PARTICIPAÇÕES S A/GitNew/utilidades_pentaho/ETL_Set_Variables_Email.ktr]
+2019/04/15 15:52:15 - Set Variables - Using run configuration [Pentaho local]
+2019/04/15 15:52:15 - Set Variables - Using legacy execution engine
+2019/04/15 15:52:15 - Set Variables - Expedindo in?cio para transforma??o [Set Variables]
+2019/04/15 15:52:15 - Write to log.0 - 
+2019/04/15 15:52:15 - Write to log.0 - ------------> Linenr 1------------------------------
+2019/04/15 15:52:15 - Write to log.0 - AMBIENTE DE EXECUCAO:
+2019/04/15 15:52:15 - Write to log.0 - 
+2019/04/15 15:52:15 - Write to log.0 - environment = dev
+2019/04/15 15:52:15 - Write to log.0 - LOCAL = RBSN2795
+2019/04/15 15:52:15 - Write to log.0 - IP_HOST = 10.40.146.30
+2019/04/15 15:52:15 - Write to log.0 - 
+2019/04/15 15:52:15 - Write to log.0 - ====================
+2019/04/15 15:52:15 - Get System Info.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:52:15 - Set Variables.0 - Setting environment variables...
+2019/04/15 15:52:15 - Set Variables.0 - Set variable Log_ETL to value [[DEV] - Sucesso no ETL Circulação]
+2019/04/15 15:52:15 - Set Variables.0 - Set variable Log_ETL_Erro to value [[DEV] - Erro no ETL Circulação]
+2019/04/15 15:52:15 - DADOS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:52:15 - Set Variables.0 - Set variable destino_email to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:52:15 - Set Variables.0 - Set variable destino_email_cc to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:52:15 - VERIFICA_AMBIENTE.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:52:15 - Set Variables.0 - Set variable destino_email_cc_processo to value [informeseuemailaqui@qualquercoisa.com.br]
+2019/04/15 15:52:15 - Set Variables.0 - Set variable sender_address to value [TecnologiaSistemasCPMBI@gruporbs.onmicrosoft.com]
+2019/04/15 15:52:15 - Set Variables.0 - Set variable sender_name to value [CPM/BI]
+2019/04/15 15:52:15 - Set Variables.0 - Set variable server to value [mail.rbs.com.br]
+2019/04/15 15:52:15 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:52:15 - Set Variables.0 - Set variable server_port to value [25]
+2019/04/15 15:52:15 - Set Variables.0 - Set variable hora_inicio to value [15/04/2019 15:52:15]
+2019/04/15 15:52:15 - Set Variables.0 - Set variable hoje to value [15/04/2019]
+2019/04/15 15:52:15 - Switch_Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:52:15 - Local.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:52:15 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 15:52:15 - Set Variables.0 - Finished after 1 rows.
+2019/04/15 15:52:15 - Set Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:00:03 - Set Variables - Loading transformation from XML file [file:///C:/Users/sandro_ferreira/OneDrive - RBS PARTICIPAÇÕES S A/GitNew/utilidades_pentaho/ETL_Set_Variables_Email.ktr]
+2019/04/15 16:00:03 - Set Variables - Using run configuration [Pentaho local]
+2019/04/15 16:00:03 - Set Variables - Using legacy execution engine
+2019/04/15 16:00:03 - Set Variables - Expedindo in?cio para transforma??o [Set Variables]
+2019/04/15 16:00:03 - Write to log.0 - 
+2019/04/15 16:00:03 - Write to log.0 - ------------> Linenr 1------------------------------
+2019/04/15 16:00:03 - Write to log.0 - AMBIENTE DE EXECUCAO:
+2019/04/15 16:00:03 - Write to log.0 - 
+2019/04/15 16:00:03 - Write to log.0 - environment = dev
+2019/04/15 16:00:03 - Write to log.0 - LOCAL = RBSN2795
+2019/04/15 16:00:03 - Write to log.0 - IP_HOST = 10.40.146.30
+2019/04/15 16:00:03 - Write to log.0 - 
+2019/04/15 16:00:03 - Write to log.0 - ====================
+2019/04/15 16:00:03 - Get System Info.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:00:03 - DADOS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:00:03 - Set Variables.0 - Setting environment variables...
+2019/04/15 16:00:03 - Set Variables.0 - Set variable Log_ETL to value [[DEV] - Sucesso no ETL {NOME DA CARGA}]
+2019/04/15 16:00:03 - Set Variables.0 - Set variable Log_ETL_Erro to value [[DEV] - Erro no ETL {NOME DA CARGA}]
+2019/04/15 16:00:03 - VERIFICA_AMBIENTE.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:00:03 - Set Variables.0 - Set variable destino_email to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 16:00:03 - Set Variables.0 - Set variable destino_email_cc to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 16:00:03 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:00:03 - Set Variables.0 - Set variable destino_email_cc_processo to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 16:00:03 - Set Variables.0 - Set variable sender_address to value [TecnologiaSistemasCPMBI@gruporbs.onmicrosoft.com]
+2019/04/15 16:00:03 - Set Variables.0 - Set variable sender_name to value [Tecnologia em Sistemas de BI]
+2019/04/15 16:00:03 - Set Variables.0 - Set variable server to value [mail.rbs.com.br]
+2019/04/15 16:00:03 - Set Variables.0 - Set variable server_port to value [25]
+2019/04/15 16:00:03 - Switch_Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:00:03 - Set Variables.0 - Set variable hora_inicio to value [15/04/2019 16:00:03]
+2019/04/15 16:00:03 - Set Variables.0 - Set variable hoje to value [15/04/2019]
+2019/04/15 16:00:03 - Local.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:00:03 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:00:03 - Set Variables.0 - Finished after 1 rows.
+2019/04/15 16:00:03 - Set Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:01:50 - Set Variables - Loading transformation from XML file [file:///C:/Users/sandro_ferreira/OneDrive - RBS PARTICIPAÇÕES S A/GitNew/utilidades_pentaho/ETL_Set_Variables_Email.ktr]
+2019/04/15 16:01:50 - Set Variables - Using run configuration [Pentaho local]
+2019/04/15 16:01:50 - Set Variables - Using legacy execution engine
+2019/04/15 16:01:50 - Set Variables - Expedindo in?cio para transforma??o [Set Variables]
+2019/04/15 16:01:50 - Write to log.0 - 
+2019/04/15 16:01:50 - Write to log.0 - ------------> Linenr 1------------------------------
+2019/04/15 16:01:50 - Write to log.0 - AMBIENTE DE EXECUCAO:
+2019/04/15 16:01:50 - Write to log.0 - 
+2019/04/15 16:01:50 - Write to log.0 - environment = dev
+2019/04/15 16:01:50 - Write to log.0 - LOCAL = RBSN2795
+2019/04/15 16:01:50 - Write to log.0 - IP_HOST = 10.40.146.30
+2019/04/15 16:01:50 - Write to log.0 - 
+2019/04/15 16:01:50 - Write to log.0 - ====================
+2019/04/15 16:01:50 - Get System Info.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:01:50 - DADOS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:01:50 - Set Variables.0 - Setting environment variables...
+2019/04/15 16:01:50 - Set Variables.0 - Set variable Log_ETL to value [[DEV] - Sucesso no ETL {NOME DA CARGA}]
+2019/04/15 16:01:50 - Set Variables.0 - Set variable Log_ETL_Erro to value [[DEV] - Erro no ETL {NOME DA CARGA}]
+2019/04/15 16:01:50 - Set Variables.0 - Set variable destino_email to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 16:01:50 - Set Variables.0 - Set variable destino_email_cc to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 16:01:50 - Set Variables.0 - Set variable destino_email_cc_processo to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 16:01:50 - VERIFICA_AMBIENTE.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:01:50 - Set Variables.0 - Set variable sender_address to value [TecnologiaSistemasCPMBI@gruporbs.onmicrosoft.com]
+2019/04/15 16:01:50 - Set Variables.0 - Set variable sender_name to value [Tecnologia em Sistemas de BI]
+2019/04/15 16:01:50 - Set Variables.0 - Set variable server to value [mail.rbs.com.br]
+2019/04/15 16:01:50 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:01:50 - Set Variables.0 - Set variable server_port to value [25]
+2019/04/15 16:01:50 - Set Variables.0 - Set variable hora_inicio to value [15/04/2019 16:01:50]
+2019/04/15 16:01:50 - Set Variables.0 - Set variable hoje to value [15/04/2019]
+2019/04/15 16:01:50 - Switch_Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:01:50 - Local.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:01:50 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:01:50 - Set Variables.0 - Finished after 1 rows.
+2019/04/15 16:01:50 - Set Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:01:57 - Set Variables - Loading transformation from XML file [file:///C:/Users/sandro_ferreira/OneDrive - RBS PARTICIPAÇÕES S A/GitNew/utilidades_pentaho/ETL_Set_Variables_Email.ktr]
+2019/04/15 16:01:57 - Set Variables - Using run configuration [Pentaho local]
+2019/04/15 16:01:57 - Set Variables - Using legacy execution engine
+2019/04/15 16:01:57 - Set Variables - Expedindo in?cio para transforma??o [Set Variables]
+2019/04/15 16:01:57 - Write to log.0 - 
+2019/04/15 16:01:57 - Write to log.0 - ------------> Linenr 1------------------------------
+2019/04/15 16:01:57 - Write to log.0 - AMBIENTE DE EXECUCAO:
+2019/04/15 16:01:57 - Write to log.0 - 
+2019/04/15 16:01:57 - Write to log.0 - environment = dev
+2019/04/15 16:01:57 - Write to log.0 - LOCAL = RBSN2795
+2019/04/15 16:01:57 - Write to log.0 - IP_HOST = 10.40.146.30
+2019/04/15 16:01:57 - Write to log.0 - 
+2019/04/15 16:01:57 - Write to log.0 - ====================
+2019/04/15 16:01:57 - Get System Info.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:01:57 - DADOS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:01:57 - Set Variables.0 - Setting environment variables...
+2019/04/15 16:01:57 - Set Variables.0 - Set variable Log_ETL to value [[DEV] - Sucesso no ETL {NOME DA CARGA}]
+2019/04/15 16:01:57 - Set Variables.0 - Set variable Log_ETL_Erro to value [[DEV] - Erro no ETL {NOME DA CARGA}]
+2019/04/15 16:01:57 - VERIFICA_AMBIENTE.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:01:57 - Set Variables.0 - Set variable destino_email to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 16:01:57 - Set Variables.0 - Set variable destino_email_cc to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 16:01:57 - Set Variables.0 - Set variable destino_email_cc_processo to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 16:01:57 - Set Variables.0 - Set variable sender_address to value [TecnologiaSistemasCPMBI@gruporbs.onmicrosoft.com]
+2019/04/15 16:01:57 - Set Variables.0 - Set variable sender_name to value [Tecnologia em Sistemas de BI]
+2019/04/15 16:01:57 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:01:57 - Set Variables.0 - Set variable server to value [mail.rbs.com.br]
+2019/04/15 16:01:57 - Set Variables.0 - Set variable server_port to value [25]
+2019/04/15 16:01:57 - Switch_Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:01:57 - Set Variables.0 - Set variable hora_inicio to value [15/04/2019 16:01:57]
+2019/04/15 16:01:57 - Set Variables.0 - Set variable hoje to value [15/04/2019]
+2019/04/15 16:01:57 - Local.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:01:57 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:01:57 - Set Variables.0 - Finished after 1 rows.
+2019/04/15 16:01:57 - Set Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:03:39 - Set Variables - Loading transformation from XML file [file:///C:/Users/sandro_ferreira/OneDrive - RBS PARTICIPAÇÕES S A/GitNew/utilidades_pentaho/ETL_Set_Variables_Email.ktr]
+2019/04/15 16:03:39 - Set Variables - Using run configuration [Pentaho local]
+2019/04/15 16:03:39 - Set Variables - Using legacy execution engine
+2019/04/15 16:03:39 - Set Variables - Expedindo in?cio para transforma??o [Set Variables]
+2019/04/15 16:03:39 - Write to log.0 - 
+2019/04/15 16:03:39 - Write to log.0 - ------------> Linenr 1------------------------------
+2019/04/15 16:03:39 - Write to log.0 - AMBIENTE DE EXECUCAO:
+2019/04/15 16:03:39 - Write to log.0 - 
+2019/04/15 16:03:39 - Write to log.0 - environment = dev
+2019/04/15 16:03:39 - Write to log.0 - LOCAL = RBSN2795
+2019/04/15 16:03:39 - Write to log.0 - IP_HOST = 10.40.146.30
+2019/04/15 16:03:39 - Write to log.0 - 
+2019/04/15 16:03:39 - Write to log.0 - ====================
+2019/04/15 16:03:39 - Get System Info.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:03:39 - DADOS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:03:39 - Set Variables.0 - Setting environment variables...
+2019/04/15 16:03:39 - Set Variables.0 - Set variable Log_ETL to value [[DEV] - Sucesso no ETL {NOME DA CARGA}]
+2019/04/15 16:03:39 - Set Variables.0 - Set variable Log_ETL_Erro to value [[DEV] - Erro no ETL {NOME DA CARGA}]
+2019/04/15 16:03:39 - VERIFICA_AMBIENTE.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:03:39 - Set Variables.0 - Set variable destino_email to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 16:03:39 - Set Variables.0 - Set variable destino_email_cc to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 16:03:39 - Set Variables.0 - Set variable destino_email_cc_processo to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 16:03:39 - Set Variables.0 - Set variable sender_address to value [TecnologiaSistemasCPMBI@gruporbs.onmicrosoft.com]
+2019/04/15 16:03:39 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:03:39 - Set Variables.0 - Set variable sender_name to value [Tecnologia em Sistemas de BI]
+2019/04/15 16:03:39 - Set Variables.0 - Set variable server to value [mail.rbs.com.br]
+2019/04/15 16:03:39 - Set Variables.0 - Set variable server_port to value [25]
+2019/04/15 16:03:39 - Switch_Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:03:39 - Set Variables.0 - Set variable hora_inicio to value [15/04/2019 16:03:39]
+2019/04/15 16:03:39 - Set Variables.0 - Set variable hoje to value [15/04/2019]
+2019/04/15 16:03:39 - Local.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:03:39 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:03:39 - Set Variables.0 - Finished after 1 rows.
+2019/04/15 16:03:39 - Set Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:11:24 - Set Variables - Loading transformation from XML file [file:///C:/Users/sandro_ferreira/OneDrive - RBS PARTICIPAÇÕES S A/GitNew/utilidades_pentaho/ETL_Set_Variables_Email.ktr]
+2019/04/15 16:11:24 - Set Variables - Using run configuration [Pentaho local]
+2019/04/15 16:11:24 - Set Variables - Using legacy execution engine
+2019/04/15 16:11:24 - Set Variables - Expedindo in?cio para transforma??o [Set Variables]
+2019/04/15 16:11:24 - Write to log.0 - 
+2019/04/15 16:11:24 - Write to log.0 - ------------> Linenr 1------------------------------
+2019/04/15 16:11:24 - Write to log.0 - AMBIENTE DE EXECUCAO:
+2019/04/15 16:11:24 - Write to log.0 - 
+2019/04/15 16:11:24 - Write to log.0 - environment = dev
+2019/04/15 16:11:24 - Write to log.0 - LOCAL = RBSN2795
+2019/04/15 16:11:24 - Write to log.0 - IP_HOST = 10.40.146.30
+2019/04/15 16:11:24 - Write to log.0 - 
+2019/04/15 16:11:24 - Write to log.0 - ====================
+2019/04/15 16:11:24 - Get System Info.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:11:24 - DADOS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:11:24 - Set Variables.0 - Setting environment variables...
+2019/04/15 16:11:24 - Set Variables.0 - Set variable Log_ETL to value [[DEV] - Sucesso no ETL {NOME DA CARGA}]
+2019/04/15 16:11:24 - VERIFICA_AMBIENTE.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:11:24 - Set Variables.0 - Set variable Log_ETL_Erro to value [[DEV] - Erro no ETL {NOME DA CARGA}]
+2019/04/15 16:11:24 - Set Variables.0 - Set variable destino_email to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 16:11:24 - Set Variables.0 - Set variable destino_email_cc to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 16:11:24 - Set Variables.0 - Set variable destino_email_cc_processo to value [sandro.ferreira@gruporbs.com.br]
+2019/04/15 16:11:24 - Set Variables.0 - Set variable sender_address to value [TecnologiaSistemasCPMBI@gruporbs.onmicrosoft.com]
+2019/04/15 16:11:24 - Set Variables.0 - Set variable sender_name to value [Tecnologia em Sistemas de BI]
+2019/04/15 16:11:24 - Set Variables.0 - Set variable server to value [mail.rbs.com.br]
+2019/04/15 16:11:24 - Set Variables.0 - Set variable server_port to value [25]
+2019/04/15 16:11:24 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:11:24 - Set Variables.0 - Set variable hora_inicio to value [15/04/2019 16:11:24]
+2019/04/15 16:11:24 - Set Variables.0 - Set variable hoje to value [15/04/2019]
+2019/04/15 16:11:24 - Switch_Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:11:24 - Local.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:11:24 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2019/04/15 16:11:24 - Set Variables.0 - Finished after 1 rows.
+2019/04/15 16:11:24 - Set Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
